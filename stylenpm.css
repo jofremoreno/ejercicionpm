@@ -1,0 +1,354 @@
+* {
+    font-family: "Open Sans", OpenSans, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-color: #C12127;
+    color: rgba(255, 255, 255, 0.8);
+    width: 100%;
+    height: auto;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+nav a:hover {
+	color: rgba(255, 255, 255, 0.5);
+}
+
+nav>div>span {
+    line-height: 18px;
+    font-weight: 400;
+}
+
+.nav-header-text {
+    font-family: "Source Sans Pro", "Lucida Grande", sans-serif;
+    line-height: 18px;
+}
+
+.top-left {
+    float: left;
+    padding: 5px 0;
+}
+
+.heart {
+    margin: 0 15px;
+}
+
+.acronym {
+    margin: 0 5px;
+}
+
+.top-links>li {
+    text-decoration: none;
+    display: inline;
+    float: right;
+    margin: 0 15px;
+    padding: 5px 5px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.section-1 {
+    height: 620px;
+    width: 100%;
+    background-image: url("https://static.npmjs.com/images/hero-cityscape.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.header {
+    width: 100%;
+    height: 70px;
+}
+
+#npm-logo {
+    width: 100px;
+    height: auto;
+    margin: 15px 15px 15px 30px;
+    float: left;
+    display: inline-block;
+}
+
+#bear-logo {
+    width: 40px;
+    margin: 10px 30px 15px 10px;
+    float: right;
+    display: inline-block;
+}
+
+.box-login {
+    width: 130px;
+    font-size: 1em;
+    color: rgba(255, 255, 255, 0.9);
+    margin: 22px 0px 20px 0px;
+    display: inline-block;
+    float: right;
+    font-weight: 600;
+}
+
+.box-login>p>a:hover {
+	color: rgba(255, 255, 255, 0.8);
+}
+
+.link-text {
+    text-decoration: none;
+    color: white;
+}
+
+.search {
+    width: 70%;
+    height: 40px;
+    font-size: 1em;
+    background-color: rgb(31, 82, 111);
+    border: 1px solid;
+    border-color: rgba(255, 255, 255, 0.2);
+    border-radius: 3px;
+    padding: 0 15px;
+    margin: 12px 0px 0px 0px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #f4f4f4;
+    line-height: 55px;
+    font-weight: 200;
+}
+
+.description-text {
+    width: 550px;
+    height: auto;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 100px 150px 50px;
+}
+
+.button {
+    background-color: rgb(240, 146, 51);
+    color: white;
+    border: 0;
+    border-radius: 30px;
+    width: 380px;
+    height: auto;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 20px;
+}
+
+.button:hover {
+	background-color: rgba(240, 146, 51, 0.9);
+}
+
+.description-text p {
+    padding-top: 25px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.section-2 {
+    width: 100%;
+    height: 650px;
+    background-color: rgb(39, 53, 71);
+    position: relative;
+}
+
+#together {
+    width: 450px;
+    margin: auto;
+    position: relative;
+    top: 120px;
+    left: 180px;
+}
+
+.container {
+    margin: 0;
+}
+
+.collaboration-text {
+    width: 40%;
+    margin: auto;
+    float: right;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    color: white;
+    position: relative;
+    top: 90px;
+    right: 60px;
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 41px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    padding: 0;
+}
+
+h3 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    padding: 10px 30px 10px 0px;
+}
+
+.button-2 {
+    background-color: rgb(203, 56, 55);
+    margin: 15px 40px 10px;
+}
+
+.button-2:hover {
+    background-color: rgba(203, 56, 55, 0.9);
+}
+
+.list {
+	margin: 30px 50px 0px;
+}
+
+.propertie {
+	list-style-position: outside;
+}
+
+.collaboration-text>p {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    padding: 10px 90px 10px;
+    margin-left: 40px;
+}
+
+.collaboration-text>p>a {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 600;
+    color: white;
+}
+
+.collaboration-text>p>a:hover {
+    text-decoration: underline;
+}
+
+.section-3 {
+    background-image: url("https://static.npmjs.com/images/npm-is-BOXES.svg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.section-3>div>h2 {
+    font-weight: 200;
+    color: white;
+}
+
+.section-3>div>p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: white;
+    padding: 5px 30px 0px 0px;
+}
+
+.install {
+    background-color: rgba(39, 53, 71, 0.7);
+    width: 140px;
+    font-size: 16px;
+    padding: 10px 15px;
+}
+
+.install:hover {
+    background-color: rgba(39, 53, 71, 0.6);
+}
+
+.container-2 {
+    width: 450px;
+    margin: auto;
+    position: relative;
+    top: 130px;
+    left: -280px;
+}
+
+section-4 {
+    position: relative;
+}
+
+.section-4>div>h2 {
+    font-weight: 200;
+    color: black;
+}
+
+.section-4>div>h3 {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+.container-3 {
+    width: 900px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.container-4 {
+    width: 900px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.container-4>article>p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.categorie {
+    text-align: center;
+    box-sizing: border-box;
+    width: 33%;
+    float: left;
+    padding: 50px 30px 70px;
+}
+
+h4 {
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.image-end {
+    width: 100px;
+}
+
+.categorie>p>a {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 600;
+    color: #C12127;
+}
+
+.categorie>p>a:hover {
+    text-decoration: underline;
+}
+
+.end {
+    height: 25px;
+    background-color: rgb(39, 53, 71);
+    color: white;
+    padding: 5px;
+    font-family: monospace;
+    text-align: right;
+}
